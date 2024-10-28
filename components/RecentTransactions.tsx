@@ -1,6 +1,6 @@
 import Link from 'next/link'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { BankTabItem } from './BankTabItem';
+import { BankTabItem } from './BankTabItem'
 import BankInfo from './BankInfo'
 import TransactionsTable from './TransactionsTable'
 import { Pagination } from './Pagination'
@@ -58,7 +58,7 @@ const RecentTransactions = ({
               type="full"
             />
 
-            <TransactionsTable transactions={transactions} />
+            <TransactionsTable transactions={currentTransactions} />
             
 
             {totalPages > 1 && (

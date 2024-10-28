@@ -1,4 +1,4 @@
-{/*import Image from "next/image";
+import Image from "next/image";
 
 import { topCategoryStyles } from "@/constants";
 import { cn } from "@/lib/utils";
@@ -35,4 +35,4 @@ const Category = ({ category }: CategoryProps) => {
   );
 };
 
-export default Category;*/}
+export default Category;
